@@ -10,6 +10,7 @@ import img6 from "./assets/cards.png"
 import img7 from "./assets/Ellipse 50.png"
 import img8 from "./assets/Users.png"
 import img9 from "./assets/hero image.png"
+import PropertyCard from './component/propertyCard';
 
 
 function App() {
@@ -52,7 +53,8 @@ function App() {
       <div className='d7'>
       <button className='b'>Property type ^ </button>
       <button className='b1'>See All Property</button> </div>
-      <img className='img6' src={img6} alt="" />
+      {/* <img className='img6' src={img6} alt="" /> */}
+      <PropertyCard/>
       </div>
 
 
